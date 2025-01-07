@@ -1,0 +1,37 @@
+Descriptive and inferential statistics
+--------------------------------------
+
+population - whole group
+sample - specific people selected from population
+
+Inferential statistics - (to infer based on data)  only conducted on sample data
+Analyze sample data to make predictions (or inference) on population
+(Hypothesis testing, confidence intervals, regression)
+
+Descriptive statistics - (to summarize data)  need to do/conduct on sample and statistics
+describing characteristics of a given data
+(average , min, max,  variance, standard deviation)
+
+-------------------------------
+Mean, Median, Mode - Measures of central tendency
+
+1) Mean -  average and mean is same sum of total divided by total numbers 
+excel function = average(range)
+
+2) Median - when we arrange all data points ascending/descending then middle point of series is Median 
+in case of odd numbers take average of middle 2 numbers
+excel function = median(range)
+
+3) Mode - frequently occurring value in dataset
+excel function = mode(range)
+--------------------------------------------------
+
+Percentile -
+
+excel formula - =Percentile.inc(range,0.5)
+Percentilerank.inc(cell value)
+$ sign in excel to keep range same example $B$10:$B$20 likewise
+
+
+
+
