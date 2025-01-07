@@ -31,6 +31,16 @@ Percentile -
 excel formula - =Percentile.inc(range,0.5)
 Percentilerank.inc(cell value)
 $ sign in excel to keep range same example $B$10:$B$20 likewise
+------------------------------
+
+range = max - min
+if outlier in data we need to use IQR inter Quartile range
+
+25 - Q1,  Q2- 50  Q3- 75
+
+between Q1 and Q3 its IQR its robust against outlier 
+
+range and IQR called measures of dispersion gives idea about data distribution
 
 
 
