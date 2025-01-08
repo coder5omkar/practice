@@ -42,6 +42,18 @@ between Q1 and Q3 its IQR its robust against outlier
 
 range and IQR called measures of dispersion gives idea about data distribution
 
+---------------------------
+lower_limit = Q1-1.5*IQR
+upper_limit = Q3+1.5*IQR
 
+-----------------------
+
+variance is a measure of how spread out a distribution is It is calculated as the average of the squared differences from the mean
+
+The smaller the variance the less spread out the data is Conversely the larger the variance the more spread out the data is
+
+Standard Deviation is a measure the closer the data points are to the mean conversely the larger the standard deviation the more spread out the points are
+
+THe stock markets volatility is the best use case for variance and standard deviation.
 
 
