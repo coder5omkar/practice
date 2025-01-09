@@ -54,6 +54,58 @@ The smaller the variance the less spread out the data is Conversely the larger t
 
 Standard Deviation is a measure the closer the data points are to the mean conversely the larger the standard deviation the more spread out the points are
 
-THe stock markets volatility is the best use case for variance and standard deviation.
+The stock markets volatility is the best use case for variance and standard deviation.
+----------------------------------------
+
+Probability basics :
+
+When we flip a coin many times, we will get a head 50% of the times and the tail the remaining 50% of the times time 
+
+p(head) = 1/2 = 50%
+p(tail) = 1/2 = 50%
+
+0 or 1 or in between that
+
+probability means event happen large number of times 
+
+Probability is a measure of the chance of an event happening It ranges from 0(impossible) to 1(certain)
+It's calculated by dividing favorable outcomes by possible outcomes.
+
+
+Addition rule
+
+q(any queen or king) = 8/52
+e(E U F) = p(E) + p()F - p (E 🥴 F)
+
+Multiplication rule :
+
+p(E 🥴 F) = p(E) x p(F|E)  - Dependent Events
+p(E 🥴 F) = p(E) x p(F)    - Independent Events
+
+
+Bayes theorem -
+
+p(A|B) = p(A🥴B)/p(B)
+
+p(A|B) = (p(B|A) * p(A))/p(B)
+
+= 0.42 * p(A) /0.7
+
+p(A) = 
+
+
+real life use cases : 
+1) spam detection using naive bayes classifier
+ 
+What is the probability that an email is spam given that it contains the word lottery
+
+2) recommendations systems 
+
+3) language models
+
+4) customer churn prediction 
+
+
+
 
 
