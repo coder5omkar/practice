@@ -104,6 +104,37 @@ What is the probability that an email is spam given that it contains the word lo
 3) language models
 
 4) customer churn prediction 
+-----------------------------------
+
+Gradient Descent :
+
+y = mx+b
+
+b is value of y when x is zero
+
+m = y2-y1/x2-x1
+
+cost function = summation of all errors
+
+epoch -> iterations 
+
+mean absolute error is error is minimum by taking absolute of negative value
+
+mean squared error where error is minimum by taking square of negative values
+
+The slope helps you understand how y(price) is changing as per the change in x(area)
+
+chain rule is a technique used to compute the derivative of a function, composed of multiple functions
+Chain rule will be used in the Gradient Descent Technique.
+
+The purpose of partial derivative is to measure how a function changes as one of its variables is varied while 
+keeping the other variables constant
+
+Why MSE (and not MAE) ->
+
+- to penalize outliers
+- continuously differentiable
+- 
 
 
 
